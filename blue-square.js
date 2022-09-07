@@ -42,3 +42,13 @@ const findValue= (value)=>{
         return leftValue;  
     }
 }
+
+const moveBoxAnimation = ()=>{
+    //value checker for top and left
+    topValue = findValue('top')
+    leftValue = findValue('left')
+
+    //set box position
+    blue_square.style.top = '${topValue}px';
+    blue_square.left= '${leftValue}px';
+}
