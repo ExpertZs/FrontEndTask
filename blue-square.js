@@ -49,8 +49,8 @@ const moveBoxAnimation = ()=>{
     leftValue = findValue('left')
 
     //set box position
-    blue_square.style.top = '${topValue}px';
-    blue_square.left= '${leftValue}px';
+    blue_square.style.top = `${topValue}px`;
+    blue_square.left= `${leftValue}px`;
 }
 
 //Calling the animation function in every second
