@@ -1,0 +1,7 @@
+.blue-square{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50px;
+}
